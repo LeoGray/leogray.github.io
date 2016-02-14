@@ -20,7 +20,7 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2012</p>
+		<p>&copy; Since 2016/02/14 08:00AM</p>
 	</footer>
 </div>
 
