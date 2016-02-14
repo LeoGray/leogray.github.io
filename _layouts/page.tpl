@@ -71,7 +71,7 @@
 			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
 		</p>
-		<h3>特别感谢</h3>
+		<h3>特别感谢:</h3>
 		<p>
 			<a href="http://yanjunyi.com/" target="_blank">严俊羿</a>
 	</p>
