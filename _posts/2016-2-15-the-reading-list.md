@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 2016年书单
-category: another
+title:  "2016年读书单"
+date:   2016-02-15 05:43:47
+categories: another
 ---
 
 此文不断更新，记录已读和打算读的书。
