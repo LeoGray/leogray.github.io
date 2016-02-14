@@ -1,10 +1,10 @@
-import js.dom.INodeEvent;
-import elf.~shortcut.~dispatcher.string;
-import elf.~shortcut.~dispatcher.function;
-import elf.~shortcut.loadScript;
-import elf.~shortcut.template;
-import elf.~shortcut.ajax;
-import elf.~namespace.URL;
+//import js.dom.INodeEvent;
+//import elf.~shortcut.~dispatcher.string;
+//import elf.~shortcut.~dispatcher.function;
+//import elf.~shortcut.loadScript;
+//import elf.~shortcut.template;
+//import elf.~shortcut.ajax;
+//import elf.~namespace.URL;
 
 var site = {
 	InitMap: {
