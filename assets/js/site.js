@@ -1,22 +1,22 @@
-///import js.dom.INodeEvent;
-///import elf.~shortcut.~dispatcher.string;
-///import elf.~shortcut.~dispatcher.function;
-///import elf.~shortcut.loadScript;
-///import elf.~shortcut.template;
-///import elf.~shortcut.ajax;
-///import elf.~namespace.URL;
+import js.dom.INodeEvent;
+import elf.~shortcut.~dispatcher.string;
+import elf.~shortcut.~dispatcher.function;
+import elf.~shortcut.loadScript;
+import elf.~shortcut.template;
+import elf.~shortcut.ajax;
+import elf.~namespace.URL;
 
 var site = {
 	InitMap: {
 		list: function () {
 			site.VAR_AUTO_LOAD_ON_SCROLL && elf(window).on('scroll', site.Handlers.scrolling);
 		},
-		
+
 		post: function () {
 			var disqusUrl = site.URL_DISCUS_COMMENT;
 			disqusUrl && elf().loadScript(disqusUrl, {});
 		},
-		
+
 		search: function () {
 			site.URL_GOOGLE_API &&
 			site.VAR_GOOGLE_CUSTOM_SEARCH_ID &&
@@ -25,7 +25,7 @@ var site = {
 			});
 		}
 	},
-	
+
 	Handlers: {
 		deferLoad: function () {
 			elf('article').toArray()
@@ -33,9 +33,9 @@ var site = {
 				.filter(function (item) {
 					return item.getAttribute('content-loaded') != 1;
 				}).slice(0, site.VAR_AUTO_LOAD_ON_SCROLL).forEach(site.Handlers.loadArticle);
-			
+
 		},
-		
+
 		loadArticle: function (item) {
 			elf().ajax({
 				url: elf(item).firstChild().firstChild().attr('href'),
@@ -44,7 +44,7 @@ var site = {
 				}
 			});
 		},
-		
+
 		showAjaxContent: function (node, response) {
 			var article = elf(node);
 			var content = response.split('<p class="meta">')[1].split('</p>');
@@ -57,7 +57,7 @@ var site = {
 				hljs.highlightBlock(item);
 			});
 		},
-		
+
 		scrolling: function () {
 			var timer = site.scrollingTimer;
 			if (timer) {
@@ -65,7 +65,7 @@ var site = {
 			}
 			site.scrollingTimer = setTimeout(site.Handlers.deferLoad, 1000);
 		},
-		
+
 		onGCSEAPILoad: function () {
 			google.load('search', '1', {
 				language: 'zh-CN',
@@ -73,15 +73,15 @@ var site = {
 				callback: site.Handlers.onGCSEReady
 			});
 		},
-		
+
 		onGCSEReady: function() {
 			var customSearchControl = new google.search.CustomSearchControl(site.VAR_GOOGLE_CUSTOM_SEARCH_ID, {});
 			customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-			
+
 			var options = new google.search.DrawOptions();
 			options.setAutoComplete(true);
 			customSearchControl.draw('cse', options);
-			
+
 			var url = new elf.URL(location);
 			var query = url.getParameter('q');
 			if (query) {
@@ -95,9 +95,9 @@ var site = {
 			}
 		}
 	},
-	
+
 	Util: {
-		
+
 		isViewable: function (element) {
 			var pos = element.getBoundingClientRect();
 			var doc = js.dom.Stage.getDocumentElement();
@@ -105,7 +105,7 @@ var site = {
 			var winWidth = doc.clientWidth;
 			var scrollLeft = document.body.scrollLeft || doc.scrollLeft;
 			var scrollTop = document.body.scrollTop || doc.scrollTop;
-			
+
 			return (pos.right > 0 &&
 				pos.left < winWidth &&
 				pos.bottom > 0 &&
@@ -117,7 +117,7 @@ var site = {
 
 elf(function () {
 	hljs.initHighlighting();
-	
+
 	var module = document.body.className.replace(/page-type-/g, '').split(' ');
 	module.forEach(function (item) {
 		var initer = site.InitMap[item];
