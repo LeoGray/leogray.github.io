@@ -45,7 +45,7 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}7d159274544ae83eef06f88f11284d00?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>现居苏州人，产品经理</p>
+		<p>现居苏州，产品经理</p>
 	</div>
 
 	<div class="block block-license">
