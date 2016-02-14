@@ -4,7 +4,7 @@ layout: page
 pageClass: page-type-post
 
 ---
-
+//*
 <div class="trace">/ <a href="/">{{ site.name }}</a> / {{ page.title }}</div>
 
 <article>
@@ -17,11 +17,7 @@ pageClass: page-type-post
 </article>
 
 <div id="disqus_thread" class="comments"></div>
-
-
-//
-
-
+*//
 
 <div id="disqus_thread"></div>
 <script>
