@@ -42,7 +42,7 @@
 	<div class="block block-about">
 		<h3>About</h3>
 		<figure>
-			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
+			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}7d159274544ae83eef06f88f11284d00?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
 		<p>现居苏州人，产品经理</p>
