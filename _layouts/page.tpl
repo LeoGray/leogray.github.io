@@ -20,45 +20,45 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2012</p>
+		<p>&copy;LeoGray Since 2016.02.14 08:43</p>
 	</footer>
 </div>
 
 <aside>
 	<h2><a href="/">{{ site.name }}</a><a href="/feed.xml" class="feed-link" title="Subscribe"><i class="fa fa-rss-square"></i></a></h2>
-	
+
 	<nav class="block">
 		<ul>
 		{% for category in site.custom.categories %}<li class="{{ category.name }}"><a href="/category/{{ category.name }}/">{{ category.title }}</a></li>
 		{% endfor %}
 		</ul>
 	</nav>
-	
+
 	<form action="/search/" class="block block-search">
 		<h3>Search</h3>
 		<p><input type="search" name="q" placeholder="Search" /></p>
 	</form>
-	
+
 	<div class="block block-about">
 		<h3>About</h3>
 		<figure>
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>Write something about yourself.</p>
+		<p>现居苏州，产品经理。</p>
 	</div>
-	
+
 	<div class="block block-license">
 		<h3>Copyright</h3>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
 	</div>
-	
+
 	{% if site.meta.author.github %}
 	<div class="block block-fork">
 		<a href="https://github.com/{{ site.meta.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
 	</div>
 	{% endif %}
-	
+
 	<div class="block block-thank">
 		<h3>Powered by</h3>
 		<p>
@@ -70,6 +70,10 @@
 			<a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
 			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
+		</p>
+		<h3>特别感谢：</h3>
+		<p>
+			<a href="http://yanjunyi.com/" target="_blank">严俊羿</a>
 		</p>
 	</div>
 </aside>
