@@ -70,6 +70,8 @@
 			<a href="http://softwaremaniacs.org/soft/highlight/en/">HighlightJS</a>,
 			<a href="https://github.com/mojombo/jekyll" target="_blank">jekyll</a>,
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
+			<h3>特别感谢</h3>
+			<a href="http://yanjunyi.com/" target="_blank">严俊羿</a>
 		</p>
 	</div>
 </aside>
