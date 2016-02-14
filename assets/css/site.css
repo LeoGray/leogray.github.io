@@ -103,16 +103,16 @@ article .gist .line-data{min-width: 100%;}
 disqus_thread{clear:both; margin:3em 0; font-size:80%;}
 disqus_thread a{padding-right:0; background:none;}
 
-#cse{margin:2em 0; line-height:normal;}
-#cse *{box-sizing:content-box; -webkit-box-sizing:content-box; -moz-box-sizing:content-box;}
-#cse a{margin:0;}
-#cse .gsc-control-cse{padding:0;}
-#cse .gsc-input{vertical-align:top;}
-#cse .gsc-result .gs-title{height:auto;}
-#cse .gsc-search-button{margin:0;}
-#cse .gcsc-branding-clickable{padding:0; background:none;}
-#cse .gsc-result-info{padding:0;}
-#cse .gsc-results{width:auto; border:none;}
-#cse .gs-result>*{padding:0;}
-#cse .gsc-cursor-box{margin:1em 0;}
-#cse .gs-no-results-result .gs-snippet{margin:0; border:none; background:none;}
+cse{margin:2em 0; line-height:normal;}
+cse *{box-sizing:content-box; -webkit-box-sizing:content-box; -moz-box-sizing:content-box;}
+cse a{margin:0;}
+cse .gsc-control-cse{padding:0;}
+cse .gsc-input{vertical-align:top;}
+cse .gsc-result .gs-title{height:auto;}
+cse .gsc-search-button{margin:0;}
+cse .gcsc-branding-clickable{padding:0; background:none;}
+cse .gsc-result-info{padding:0;}
+cse .gsc-results{width:auto; border:none;}
+cse .gs-result>*{padding:0;}
+cse .gsc-cursor-box{margin:1em 0;}
+cse .gs-no-results-result .gs-snippet{margin:0; border:none; background:none;}
