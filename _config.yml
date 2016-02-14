@@ -11,12 +11,11 @@ desc: 科技、新奇、好玩
 custom:
     category:
         thinking: 思考
-        tech:     科技
-        another:  其他
-        fun:      有趣
+        tech: 科技
+        another: 其他
+        fun: 有趣
         hardware: 硬件
-        PM:       产品
-
+        PM: 产品
     categories:
       - name:  thinking
         title: 思考
@@ -35,6 +34,7 @@ custom:
 
       - name:  another
         title: 其他
+
     scrollingLoadCount: 2                           # 滚屏自动加载文章数量，“0”为关闭
 
 meta:
