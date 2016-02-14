@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "2016年读书单"
-date:   2016-02-15 05:43:47
+title:  2016年读书单
 categories: another
 ---
 
