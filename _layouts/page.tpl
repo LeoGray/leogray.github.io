@@ -45,7 +45,7 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>苏州人产品经理</p>
+		<p>现居苏州人，产品经理</p>
 	</div>
 
 	<div class="block block-license">
