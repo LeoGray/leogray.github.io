@@ -49,7 +49,7 @@
 	</div>
 
 	<div class="block block-license">
-		<h3>Copyright</h3>
+		<h3>Copyright LeoGray since 2016年2月14日 08:43</h3>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
 	</div>
 

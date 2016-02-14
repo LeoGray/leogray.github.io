@@ -5,7 +5,7 @@ permalink: /posts/:title.html
 exclude:
   - README.md
 
-name: LeoGrays White Paper
+name: LeoGray's White Paper
 host: leogray.net
 desc: 科技、新奇、好玩
 
