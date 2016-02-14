@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "新的开始"
-date:   2016-02-14 17:23:47
+title:  新的开始
 categories: another
 ---
 
