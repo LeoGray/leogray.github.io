@@ -3,8 +3,6 @@ permalink: /posts/:title.html
 exclude:
   - README.md
 
-host: leogray.net
-
 name: LeoGray's White Paper
 host: leogray.net
 desc: 科技、新奇、好玩
@@ -21,14 +19,19 @@ custom:
     categories:
       - name:  thinking
         title: 思考
+
       - name:  tech
         title: 科技
+
       - name:  fun
         title: 有趣
+
       - name:  hardware
         title: 硬件
+
       - name:  PM
         title: 产品
+        
       - name:  another
         title: 其他
     scrollingLoadCount: 2                           # 滚屏自动加载文章数量，“0”为关闭
