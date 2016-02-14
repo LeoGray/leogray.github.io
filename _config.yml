@@ -11,14 +11,31 @@ desc: 科技、新奇、好玩
 
 custom:
     category:
-        default: Default Category
-        another: Another Category
+        thinking: 思考
+        tech:     科技
+        another:  其他
+        fun:      有趣
+        hardware: 硬件
+        PM:       产品
+
     categories:
-      - name:  default
-        title: Default Category
+      - name:  thinking
+        title: 思考
 
       - name:  another
-        title: Another Category
+        title: 其他
+
+      - name:  tech
+        title: 科技
+
+      - name:  fun
+        title: 有趣
+
+      - name:  hardware
+        title: 硬件
+
+      - name:  PM
+        title: 产品
 
     scrollingLoadCount: 2                               # 滚屏自动加载文章数量，“0”为关闭
 
