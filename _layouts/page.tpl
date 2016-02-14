@@ -20,7 +20,7 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2016/02/14 08:00AM</p>
+		<p>&copy;LeoGray Since 2016/02/14 08:00AM</p>
 	</footer>
 </div>
 
