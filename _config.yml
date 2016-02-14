@@ -1,3 +1,4 @@
+markdown: kramdown
 safe: false
 permalink: /posts/:title.html
 exclude:
@@ -31,7 +32,7 @@ custom:
 
       - name:  PM
         title: 产品
-        
+
       - name:  another
         title: 其他
     scrollingLoadCount: 2                           # 滚屏自动加载文章数量，“0”为关闭
