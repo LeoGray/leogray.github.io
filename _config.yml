@@ -44,7 +44,7 @@ meta:
     author:
         name: LeoGray
         email: i@leogray.net
-        disqus: your-disqus-short-name              # Disqus缩略标识
+        disqus: leogray7              # Disqus缩略标识
         gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
 #       github: your-github-account                 # GitHub账号
         gravatar: 7d159274544ae83eef06f88f11284d00  # Gravatar头像标识
