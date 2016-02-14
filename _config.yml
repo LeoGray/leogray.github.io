@@ -22,9 +22,6 @@ custom:
       - name:  thinking
         title: 思考
 
-      - name:  another
-        title: 其他
-
       - name:  tech
         title: 科技
 
@@ -36,6 +33,10 @@ custom:
 
       - name:  PM
         title: 产品
+
+      - name:  another
+        title: 其他
+
 
     scrollingLoadCount: 2                               # 滚屏自动加载文章数量，“0”为关闭
 
