@@ -7,9 +7,9 @@ exclude:
 
 host: leogray.net
 
-blog:
-    name: LeoGray's White Paper
-    desc: 科技、新奇、好玩
+name: LeoGray's White Paper
+host: leogray.net
+desc: 科技、新奇、好玩
 
 custom:
     category:
@@ -23,28 +23,23 @@ custom:
     categories:
       - name:  thinking
         title: 思考
-
       - name:  tech
         title: 科技
-
       - name:  fun
         title: 有趣
-
       - name:  hardware
         title: 硬件
-
       - name:  PM
         title: 产品
-
       - name:  another
         title: 其他
-    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
+    scrollingLoadCount: 2                           # 滚屏自动加载文章数量，“0”为关闭
 
 meta:
     author:
         name: LeoGray
         email: i@leogray.net
-        disqus: leogray7                       # Disqus缩略标识
+        disqus: leogray7                            # Disqus缩略标识
         gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
         gravatar: 7d159274544ae83eef06f88f11284d00  # Gravatar头像标识
 
