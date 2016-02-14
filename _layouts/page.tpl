@@ -20,7 +20,7 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy;LeoGray Since 2016/02/14 08:00AM</p>
+		<p>&copy; Since 2012</p>
 	</footer>
 </div>
 
@@ -42,10 +42,10 @@
 	<div class="block block-about">
 		<h3>About</h3>
 		<figure>
-			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}7d159274544ae83eef06f88f11284d00?s=48" />{% endif %}
+			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>现居苏州，产品经理</p>
+		<p>Write something about yourself.</p>
 	</div>
 
 	<div class="block block-license">
@@ -53,12 +53,12 @@
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
 	</div>
 
-<!-- github 链接
-	*{% if site.meta.author.github %}
-	*<div class="block block-fork">
-	*	<a href="https://github.com/{{ site.meta.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
-	*</div>
-	*{% endif %}
+<!-- 去除github链接
+	{% if site.meta.author.github %}
+	<div class="block block-fork">
+		<a href="https://github.com/{{ site.meta.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+	</div>
+	{% endif %}
 -->
 
 	<div class="block block-thank">
@@ -86,7 +86,7 @@
 site.URL_GOOGLE_API = '{{site.meta.gapi}}';
 site.URL_DISCUS_COMMENT = '{{ site.meta.author.disqus }}' ? 'http://{{ site.meta.author.disqus }}.{{ site.meta.disqus }}' : '';
 
-site.VAR_SITE_NAME = '{{ site.name }}';
+site.VAR_SITE_NAME = "{{ site.name | replace:'"','\"' }}";
 site.VAR_GOOGLE_CUSTOM_SEARCH_ID = '{{ site.meta.author.gcse }}';
 site.TPL_SEARCH_TITLE = '#{0} / 搜索：#{1}';
 site.VAR_AUTO_LOAD_ON_SCROLL = {{ site.custom.scrollingLoadCount }};
