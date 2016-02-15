@@ -1,13 +1,12 @@
 ---
 layout:     post
-title:      "「知乎」如何评价 MIUI 6？"
-date:       2014-08-16 12:00:00
-author:     "Hux"
-header-img: "img/post-bg-miui6.jpg"
+title:      "2016的阅读计划"
+subtitle:   "The reading list of 2016"
+date:       2016-2-15 08:39:03
+author:     "LeoGray"
 tags:
-    - 知乎
-    - MIUI
-    - Android
+    - 阅读
+    - 书单
 ---
 
 
