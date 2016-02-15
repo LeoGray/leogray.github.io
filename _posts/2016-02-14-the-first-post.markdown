@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "新的开始"
-date: 2016-02-14 06:54:59
+date:       2016-02-14 06:54:59
 author:     "LeoGray"
 tags:
     - jekyll
