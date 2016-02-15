@@ -5,6 +5,7 @@ header-img: img/home-bg.jpg
 email: i@leogray.net
 description: "科技、有趣、好玩、阅读、思考"
 keyword: "LeoGray"
+timezone: Asia/Sakhalin
 url: "http://leogray.net"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
