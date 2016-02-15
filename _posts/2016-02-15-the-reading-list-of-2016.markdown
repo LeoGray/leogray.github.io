@@ -2,12 +2,13 @@
 layout:     post
 title:      "2016的阅读计划"
 subtitle:   "The reading list of 2016"
-date:       2016年2月15日 08:39:03
+date:       2016-2-15 08:39:03
 author:     "LeoGray"
 tags:
     - 阅读
     - 书单
 ---
+
 
 此文会在2016年持续更新，直到公历年结束。
 
