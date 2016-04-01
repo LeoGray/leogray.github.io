@@ -3,7 +3,6 @@ layout:     post
 title:      "值呼10分钟的价值"
 subtitle:   "安利一个产品——值呼"
 date:       2016-4-1 15:06:03
-#date:       2016-2-15
 author:     "LeoGray"
 tags:
     - 互联网产品
